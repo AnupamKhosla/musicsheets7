@@ -9,7 +9,7 @@ import path from 'node:path';
 import cors from "cors";
 import "./loadEnvironment.mjs";
 import "express-async-errors";
-//import db from "./db/conn.mjs";
+import db from "./db/conn.mjs";
 
 
 
