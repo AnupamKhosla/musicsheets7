@@ -10,6 +10,7 @@ import cors from "cors";
 import "./loadEnvironment.mjs";
 import "express-async-errors";
 import db from "./db/conn.mjs";
+console.log(db);
 
 
 
